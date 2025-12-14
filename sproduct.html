@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>store me</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/styleM.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">TechBee</a>
+        <div class="navbar">
+            <a  href="#home">Home</a>
+            <a  class="active" href="shop.html">Product</a>
+            <a href="#about">About</a>
+            <a href="#">contact</a>
+            <a href="#">Account</a>
+        </div>
+        <div class="icons">
+            <i  class="fas fa-bars" id="menu-bars"></i>
+            <i  class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+        </div>          
+    </header>
+    <!--end header-->
+    <!--search form-->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here.." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<section id="prodetails" class="prodetails">
+    <div class="single-pro-image">
+
+        <img src="pic/14-pro-max.jpg" width="100%" id="mainimg" alt="">
+        <div class="small-img-group">
+            <div class="small-img-col">
+                <img src="pic/14-pro-max.jpg"  width="100%" class="small-img"   alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="pic/13-pro-max.jpg"  width="100%" class="small-img"   alt="">
+            </div>
+            <div class="small-img-col">
+                <img src="pic/14-pro-max.jpg"  width="100%" class="small-img"   alt="">
+            </div>
+        </div>
+    
+    </div>
+    
+    <div class="single-pro-details">
+        <h6>Home Mobile</h6>
+        <h3><b>Iphone 14pro max</b></h3>
+        <h2>Rs.435000</h2>
+        <br>
+        <select>
+            <option>Select the storage</option>
+            <option>255GB</option>
+            <option>128GB</option>
+            <option>64GB</option>
+        </select>
+
+    <input type="number" value="1">
+    <button class="btn">Add To Cart</button><br>
+    <br>
+    <h3>Product Details</h3>
+    <span>The iPhone 14 Pro Max comes with a large 6.7-inch Liquid Retina XDR OLED display with 1-120Hz refresh rate and<br>
+         an always-on display functionality. The phone comes Apple's new A16 Bionic chipset, 6GB <br>
+         of LPDDR5 RAM, and will available in the following storage variants: 128GB, 256GB, 512GB, <br>
+         and the range-topping 1TB version.</span>
+        </div>
+
+</section>
+<section class="featured" id="featured">
+    <h1 class="sub-heading">Featured Products</h1>
+    <div class="box-container">
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/14-pro-max.jpg" alt="">
+            <h3>Iphone 14pro max</h3>
+        <span>Rs.462,000.00</span>
+        <a href="#" class="btn">add to cart</a>
+
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/apple-iphone-13.jpg" alt="">
+            <h3>Iphone 13</h3>
+        <span>Rs.462,000.00</span>
+        <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+            <img src="pic/apple-iphone-se-2020-2.jpg" alt="">
+            <h3>Iphone SE 2020</h3>
+        <span>Rs.462,000.00</span>
+        <a href="#" class="btn">add to cart</a>
+     </div>
+    </div>
+   
+ </section>
+ <script>
+    var MainImg = document.getElementById("mainimg");
+    var smallImg = document.getElementsByClassName("small-img");
+
+    smallImg[0].onclick = function(){
+        MainImg.src = smallImg[0].src; 
+    }
+    smallImg[1].onclick = function(){
+        MainImg.src = smallImg[1].src; 
+    }
+    smallImg[2].onclick = function(){
+        MainImg.src = smallImg[2].src; 
+    }
+ </script>
+
+   
+    <!--js files-->
+ 
+ 
+
+ 
+  <!--oder section start-->
+
+   <!--footer section start-->
+   <footer class="footer">
+    <div class="container">
+        <div class="row">
+           <div class="footer-col">
+            <h4> company</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">our services</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">affiliate program</a></li>
+            </ul>
+           </div>
+           <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">shipping</a></li>
+                <li><a href="#">returns</a></li>
+                <li><a href="#">order status</a></li>
+                <li><a href="#">payment options</a></li>
+            </ul>
+           </div>
+           <div class="footer-col">
+            <h4>online shop</h4>
+            <ul>
+                <li><a href="#">Mobiiles</a></li>
+                <li><a href="#">laptops</a></li>
+                <li><a href="#">ipad</a></li>
+                <li><a href="#">accessories</a></li>
+            </ul>
+           </div>
+           <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+           
+           </div>
+        </div>
+    </div>
+   </footer>
+    <!--!footer  section end-->
+</body>
+</html>

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+    
+    
+    }
+
+
+
+
+nav{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    
+    }
+    .logo{
+        width: 120px;
+        cursor: pointer;
+    }
+    .card{
+        width: 30px;
+        cursor: pointer;
+    }
+    nav ul{
+        flex: 1;
+        text-align: right;
+        padding-right: 30px;
+    }
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 30px;
+    }
+    nav ul li a{
+        color: #0e0d0d;
+        text-decoration: none;
+        position: relative;
+    }
+    nav ul li a::after{
+        content: '';
+        width: 0;
+        height: 3px;
+        position: absolute;
+        bottom: -5px;
+        left: 50%;
+        transform:translateX(-50%);
+        background: #0f0f0f;
+        transition: width 0.3s;
+    }
+    nav ul li a:hover::after{
+        width: 50%;
+    
+    }
+    
