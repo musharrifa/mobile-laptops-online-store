@@ -1,0 +1,1 @@
+after loading my project in nav bar there is a button call account , if u wants to see my whole project 1st you have to sigin to that accout after that you can see the product pages and purches things
